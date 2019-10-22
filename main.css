@@ -1,0 +1,188 @@
+h1{
+  text-align: center;
+  margin: 0;
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+  html{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  li{
+    list-style: none;
+  }
+
+  .navigation{
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    margin-bottom: 100px;
+    padding: 0;
+    z-index: 100;
+  }
+  nav{
+    position: relative;
+    width: 50%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    float: right;
+  }
+  nav li{
+    position: relative;
+    display: inline-block;
+    width: 16%;
+    height: 60px;
+  }
+  nav li a{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+    font-style: italic;
+  }
+  nav li a:hover{color: snow;}
+.home a{color: red;}
+.about a{color: purple;}
+.skills a{color: orange;}
+.resume a{color: lightgreen;}
+.contact a{color: lightblue;}
+
+
+
+
+
+
+
+
+
+
+  .content-wrapper{
+    background: rgba(32,233,0,0.3);
+    position: relative;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    /* min-height: 100vh; */
+  }
+
+  #home, #about, #skills, #projects, #resume, #contact{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+
+
+#about p{
+  margin: 0 20%;
+  letter-spacing: 0px;
+}
+
+/* .......................
+        Skills
+....................... */
+#skills ul{
+  width: 50%;
+  margin: 0 auto;
+}
+#skills ul li{
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0;
+  padding: 40px;
+
+  text-align: center;
+}
+#skills ul li:last-child{
+  margin-left: -4px;
+  border-left: 0;
+}
+
+/* .......................
+        Projects
+....................... */
+.projects-wrapper{
+  text-align: center;
+}
+.projects-wrapper ul li{
+  display: inline-block;
+  margin: 8px;
+}
+.project{
+  background: lightgrey;
+  margin: 0;
+  padding: 60px 0;
+}
+.project-1{
+  background: lightgrey;
+}
+
+
+
+
+  .contact-info{
+    margin-bottom: 100px;
+  }
+  .contact-info ul{
+    width: 60%;
+    margin: 0 auto;
+  }
+  .contact-info li{
+    display: inline-block;
+    padding: 20px 40px;
+  }
+
+  #contact .socialmedia{
+    width: 216px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  #contact .socialmedia li{
+    background: green;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  #contact .socialmedia li a{
+    position: absolute;
+    background: lightgrey;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align-last: center;
+    line-height: 40px;
+  }
+
+
+
+
+
+
+
+  footer{
+    position: relative;
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+  }
+  footer .copyright{}
