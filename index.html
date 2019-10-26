@@ -2,8 +2,12 @@
 <html>
 <head>
 	<title>Iczcool Tech</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/3d76f8d0a5.js" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Carrois+Gothic+SC|Cousine|Hind+Guntur|Josefin+Slab|Lexend+Peta|Orbitron&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -22,9 +26,96 @@
 	</div>
 	<div class="content-wrapper">
 		<div class="content">
+
+
+
+
+
+
+
+
+
+
+			<style media="screen">
+			#home{
+				margin: auto 0;
+			}
+			.brand-wrapper{
+				/* position: absolute; */
+				display: table;
+				height: 100vh;
+				overflow: hidden;
+				/* background:lightblue; */
+				margin: 0 auto;
+				padding: 0;
+				padding-top:100px;
+			}
+			.brand-innerwrapper{
+				margin: 0 auto;
+				display: table-cell;
+				vertical-align: middle;
+				/* background:indigo; */
+
+				float: right;
+			}
+
+
+
+
+
+			.brand h1{
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+			#home .brand{
+				text-align: center;
+				margin-bottom: 40px;
+			}
+			#home .brand h1{
+				font-size: 3.8em;
+				font-family: 'Carrois Gothic SC', sans-serif;
+
+				text-transform: uppercase;
+			}
+			#home .brand p{
+				font-family: 'Orbitron', sans-serif;
+				font-size: 1em;
+			}
+			#home .introduction{
+				font-family: 'Hind Guntur', sans-serif;
+				font-size: 1.4em;
+			}
+			</style>
 			<div id="home">
-				<h1>Home</h1>
+				<div class="brand-wrapper">
+				  <div class="brand-innerwrapper">
+				    <div>
+
+							<div class="brand">
+								<h1>Isaac Tutu</h1>
+								<p>Technology&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Futute&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;::&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Me</p>
+							</div>
+							<p class="introduction" style="text-align:justify; padding-left:20%; padding-right:20%;">
+								Hi, welcome to my website. I'm Isaac Tutu, my friends call me Iczcool and am a Web Developer.
+								I love being creative, solving problems and passionate about learning new technologies, and using these to
+								create beautiful web applications.
+							</p>
+
+				    </div>
+				  </div>
+				</div>
 			</div>
+
+
+
+
+
+
+
+
+
+
+
 			<div id="about">
 				<h1>About Me</h1>
 				<p>
@@ -39,26 +130,34 @@
 
 
 
-			<div id="skills">
-				<h1>Technical Skills</h1>
-				<p>
+			<div id="skills" class="row">
+				<h1 class="col-12">Technical Skills</h1>
+				<p class="skills-intro col-12">
 					I began my coding journey learning front end development on my own, and practicing back-end development from academic projects.
 					This made me grow a passion for creating dynamically beautiful websites.
 				</p>
-				<ul>
-					<li>
-						<h3><i class="fas fa-code fa-2x"></i>&nbsp; Front End</h3>
-						<p>
-							HTML5 CSS3 JAVASCRIPT DOM <br>RESPONSIVE WEB DESIGN<br> BOOTSTRAP JQUERY
-						</p>
-					</li>
-					<li>
-						<h3><i class="fas fa-terminal fa-2x"></i>&nbsp; Back End</h3>
-						<p>
-							HTML5 CSS3 JAVASCRIPT DOM <br>RESPONSIVE WEB DESIGN<br> BOOTSTRAP JQUERY
-						</p>
-					</li>
-				</ul>
+				<div class="col-12">
+					<div class="row">
+						<div class="skills-item col-lg-4 col-sm-12">
+							<h3><i class="fas fa-code fa-xs"></i>&nbsp; Front End</h3>
+							<p>
+								HTML5/CSS3/SASS<br>Javascript/JQuery/AJAX<br>Bootstrap/Foundation
+							</p>
+						</div>
+						<div class="skills-item col-lg-4 col-sm-12">
+							<h3><i class="fas fa-terminal fa-xs"></i>&nbsp; Back End</h3>
+							<p>
+								C#/ASP.NET Core<br>Azure Web Apps<br>MSSQL/PHP/MySQL<br>NodeJS/REST &<br> RESTful API/JSON
+							</p>
+						</div>
+						<div class="skills-item col-lg-4 col-sm-12">
+							<h3><i class="fas fa-code-branch fa-xs"></i>&nbsp; Source</h3>
+							<p>
+								Git/GitHub<br>SCRUM/Agile
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 
 
@@ -86,7 +185,7 @@
 								<li><a href="#0" target="_blank"><i class="fab fa-github"></i></a></li>
 							</ul>
 					</div>
-					<div class="project project-2">
+					<div class="project project-3">
 							<h3>Mavis' Native Fabrics</h3>
 							<p>
 								Built a children's gym website that includes class registration, parent portal, and an ecommerce site.<br>
@@ -96,32 +195,55 @@
 								<li><a href="#0" target="_blank"><i class="fab fa-github"></i></a></li>
 							</ul>
 					</div>
+					<div class="project project-4">
+							<h3>Other</h3>
+							<p>
+								<a href="https://github.com/iczcool" target="_blank">Miscleneous projects..</a>
+							</p>
+					</div>
 				</div>
 			</div>
+
+
+
+
 			<div id="resume">
 				<h1>Resume</h1>
+				<p>Oh! one more thing, a copy of my CV is downloadable from the following link:</p>
+				<div>
+					<a href="#"><span><i class="fas fa-file-download fa-3x"></i></span></a>
+				</div>
 			</div>
-			<div id="contact">
-				<h1>Contac</h1>
 
-				<div class="contact-info">
-					<ul>
-						<li>
+
+
+
+
+
+
+
+
+			<div id="contact" class="row">
+				<h1 class="col-12">Contact</h1>
+
+				<div class="contact-info col-12">
+					<div class="row">
+						<div class="col-lg-5 col-sm-12">
 							<h3>Location</h3>
 							<p>Nuneaton, Warwickshire, UK</p>
-						</li>
-						<li>
+						</div>
+						<div class="col-lg-5 col-sm-12">
 							<h3>Email</h3>
 							<p>iczcoolkeep@yahoo.com</p>
-						</li>
-						<li>
+						</div>
+						<div class="col-lg-2 col-sm-12">
 							<h3>Phone</h3>
 							<p>On Request</p>
-						</li>
-					</ul>
+						</div>
+					</div>
 				</div>
 
-				<div class="socialmedia">
+				<div class="socialmedia col-12">
 					<ul>
 						<li><a href="https://twitter.com/iczcoolkeep" target="_blank"><i class="fab fa-twitter"></i></a></li>
 						<li><a href="https://www.facebook.com/iczcool" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
@@ -130,6 +252,8 @@
 						<li><a href="https://github.com/iczcool" target="_blank"><i class="fab fa-github"></i></a></li>
 					</ul>
 				</div>
+
+
 			</div>
 		</div>
 	</div>
