@@ -11,6 +11,12 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
+
+
+
+
+
+
 	<div class="navigation">
 		<nav>
 			<div class="logo"></div>
@@ -24,6 +30,10 @@
 			</ul>
 		</nav>
 	</div>
+
+
+
+
 	<div class="content-wrapper">
 		<div class="content">
 
@@ -41,14 +51,15 @@
 				margin: auto 0;
 			}
 			.brand-wrapper{
-				/* position: absolute; */
+				background: rgba(0, 0, 0, 0.85);
 				display: table;
 				height: 100vh;
 				overflow: hidden;
-				/* background:lightblue; */
 				margin: 0 auto;
 				padding: 0;
 				padding-top:100px;
+				color: #ffffff;
+				color: #C1CDCD;
 			}
 			.brand-innerwrapper{
 				margin: 0 auto;
@@ -72,7 +83,7 @@
 				margin-bottom: 40px;
 			}
 			#home .brand h1{
-				font-size: 3.8em;
+				font-size: 5em;
 				font-family: 'Carrois Gothic SC', sans-serif;
 
 				text-transform: uppercase;
@@ -80,10 +91,11 @@
 			#home .brand p{
 				font-family: 'Orbitron', sans-serif;
 				font-size: 1em;
+				font-weight: lighter;
 			}
 			#home .introduction{
 				font-family: 'Hind Guntur', sans-serif;
-				font-size: 1.4em;
+				font-size: 1.2em;
 			}
 			</style>
 			<div id="home">
@@ -117,7 +129,7 @@
 
 
 			<div id="about">
-				<h1>About Me</h1>
+				<h1 class="display-4">About Me</h1>
 				<p>
 					I am a web developer who fell in love with computers right from the very first time I opened an email account. This love
 					grew even more when I took a computing class in high school, then the journey began.
@@ -131,7 +143,7 @@
 
 
 			<div id="skills" class="row">
-				<h1 class="col-12">Technical Skills</h1>
+				<h1 class="display-4 col-12">Technical Skills</h1>
 				<p class="skills-intro col-12">
 					I began my coding journey learning front end development on my own, and practicing back-end development from academic projects.
 					This made me grow a passion for creating dynamically beautiful websites.
@@ -163,9 +175,13 @@
 
 
 			<div id="projects">
-				<h1>Sample Projects</h1>
+				<h1 class="display-4">Sample Projects</h1>
 				<div class="projects-wrapper">
-					<div class="project project-1">
+
+
+
+					<div class="project project-1 row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
 							<h3>Member Web Portal</h3>
 							<p>
 								Built a children's gym website that includes class registration, parent portal, and an ecommerce site.<br>
@@ -174,9 +190,17 @@
 								<li><a href="#0" target="_blank"><i class="fas fa-globe"></i></a></li>
 								<li><a href="#0" target="_blank"><i class="fab fa-github"></i></a></li>
 							</ul>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<img src="webportal.png" width="260px" height="200px" alt="Web Portal">
+						</div>
 					</div>
-					<div class="project project-2">
-							<h3>Mavis' Native Fabrics</h3>
+					<div class="project project-2 row">
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<img src="fabrics.png" width="260px" height="200px" alt="Web Portal">
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12">
+							<h3>Mavis' Natives</h3>
 							<p>
 								Built a children's gym website that includes class registration, parent portal, and an ecommerce site.<br>
 							</p>
@@ -184,17 +208,13 @@
 								<li><a href="#0" target="_blank"><i class="fas fa-globe"></i></a></li>
 								<li><a href="#0" target="_blank"><i class="fab fa-github"></i></a></li>
 							</ul>
+						</div>
 					</div>
-					<div class="project project-3">
-							<h3>Mavis' Native Fabrics</h3>
-							<p>
-								Built a children's gym website that includes class registration, parent portal, and an ecommerce site.<br>
-							</p>
-							<ul>
-								<li><a href="#0" target="_blank"><i class="fas fa-globe"></i></a></li>
-								<li><a href="#0" target="_blank"><i class="fab fa-github"></i></a></li>
-							</ul>
-					</div>
+
+
+
+
+
 					<div class="project project-4">
 							<h3>Other</h3>
 							<p>
@@ -208,7 +228,7 @@
 
 
 			<div id="resume">
-				<h1>Resume</h1>
+				<h1 class="display-4">Resume</h1>
 				<p>Oh! one more thing, a copy of my CV is downloadable from the following link:</p>
 				<div>
 					<a href="#"><span><i class="fas fa-file-download fa-3x"></i></span></a>
@@ -224,7 +244,7 @@
 
 
 			<div id="contact" class="row">
-				<h1 class="col-12">Contact</h1>
+				<h1 class="display-4 col-12">Contact</h1>
 
 				<div class="contact-info col-12">
 					<div class="row">
@@ -258,7 +278,7 @@
 		</div>
 	</div>
 	<footer>
-		<div class="copyright"><p>@copyright iczcool tech. - 2019</p></div>
+		<div class="copyright"><p>&copyIczcool&nbsp;|&nbsp;All rights reserved.</p></div>
 	</footer>
 </body>
 </html>

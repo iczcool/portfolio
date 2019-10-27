@@ -12,6 +12,7 @@ p{
     padding: 0;
   }
   body{
+    background: #0e1215;
     margin: 0;
     padding: 0;
   }
@@ -25,9 +26,9 @@ p{
 
   .navigation{
     position: fixed;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
     width: 100%;
-    height: 80px;
+    height: 60px;
     margin: 0;
     margin-bottom: 100px;
     padding: 0;
@@ -57,7 +58,10 @@ p{
     color: #ffffff;
     text-decoration: none;
     font-family: 'Architects Daughter', cursive;
-    font-style: italic;
+    font-family: 'Orbitron', sans-serif;
+    /* font-style: italic; */
+    font-size: 0.85em;
+    letter-spacing: 1px;
   }
   nav li a:hover{color: snow;}
 .home a{color: red;}
@@ -92,11 +96,17 @@ p{
 
 
 #home{
+  background: url(intelligence.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 
 
-
+#about{
+  background: rgb(217,225,229);
+  color: #0e1215;
+}
 #about p{
   margin: 0 20%;
   text-align: justify;
@@ -110,13 +120,15 @@ p{
   position: relative;
   width: 60%;
   margin: 0 auto;
+  color: rgb(217,225,229);
+  color: grey;
 }
 #skills .skills-intro{
   text-align: justify;
   margin-bottom: 40px;
 }
 #skills .skills-item{
-  border: 1px solid black;
+  border: 1px solid grey;;
   text-align: center;
   padding: 5% 2%;
 }
@@ -124,10 +136,10 @@ p{
   font-size: 1em;
 }
 #skills .skills-item:first-child{
-  border-left: 1px solid #000000;
+  border-left: 1px solid grey;
 }
 #skills .skills-item i{
-  border: 1px solid #000000;
+  border: 1px solid grey;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -141,12 +153,22 @@ p{
 /* .......................
         Projects
 ....................... */
+#projects{
+  color: grey;
+}
 .projects-wrapper{
   padding: 0 20%;
+  color: grey;
 }
 .projects-wrapper ul li{
   display: inline-block;
   margin: 8px;
+}
+.projects-wrapper ul li a{
+  color: grey;
+}
+.projects-wrapper ul li a:hover{
+  color: lightgrey;
 }
 .project{
   margin: 0;
@@ -167,6 +189,8 @@ p{
         Resume
 ....................... */
 #resume{
+  background: rgb(217,225,229);
+  color: #0e1215;
   text-align: center;
 }
 
@@ -175,6 +199,8 @@ p{
         Contact
 ....................... */
 #contact{
+  background: lightgrey;
+  color: #0e1215;
   margin: 0;
   padding: 0;
 }
@@ -192,6 +218,10 @@ p{
     margin: 0 10px;
   }
   #contact .socialmedia li a{
+    color: grey;
+  }
+  #contact .socialmedia li a:hover{
+    color: darkgrey;
   }
 
 
@@ -213,6 +243,8 @@ p{
     text-align: center;
     margin: 0;
     padding: 14px 0;
+    color: grey;
+    font-size: 0.78em;
   }
 
 
