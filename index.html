@@ -8,26 +8,54 @@
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Carrois+Gothic+SC|Cousine|Hind+Guntur|Josefin+Slab|Lexend+Peta|Orbitron&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-
-
+<style>
+</style>
 
 
 
 	<div class="navigation">
-		<nav>
-			<div class="logo"></div>
-			<ul>
-				<li class="home"><a href="#home">#Home</a></li>
-				<li class="about"><a href="#about">#About</a></li>
-				<li class="skills"><a href="#skills">#Skills</a></li>
-				<li class="projects"><a href="#projects">#Projects</a></li>
-				<li class="resume"><a href="#resume">#Resume</a></li>
-				<li class="contact"><a href="#contact">#Contact</a></li>
-			</ul>
+		<nav class="navbar navbar-expand-sm navbar-dark" id="mainNav">
+		  <div class="container">
+		    <a class="navbar-brand" href="#"></a>
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		      <!-- <span class="navbar-toggler-icon border-none"></span> -->
+					<span>
+						<i class="fas fa-bars"></i>
+					</span>
+		    </button>
+		    <div class="collapse navbar-collapse align-items-center" id="navbarResponsive">
+		      <ul class="navbar-nav ml-auto align-items-center">
+		        <li class="home nav-item">
+		          <a class="nav-link" href="#home">#Home</a>
+		        </li>
+		        <li class="about nav-item">
+		          <a class="nav-link" href="#about">#About</a>
+		        </li>
+		        <li class="skills nav-item">
+		          <a class="nav-link" href="#skills">#Skills</a>
+		        </li>
+						<li class="projects nav-item">
+		          <a class="nav-link" href="#projects">#Projects</a>
+		        </li>
+						<li class="resume nav-item">
+		          <a class="nav-link" href="#resume">#Resume</a>
+		        </li>
+						<li class="contact nav-item">
+		          <a class="nav-link" href="#contact">#Contact</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
 		</nav>
 	</div>
 
@@ -46,58 +74,7 @@
 
 
 
-			<style media="screen">
-			#home{
-				margin: auto 0;
-			}
-			.brand-wrapper{
-				background: rgba(0, 0, 0, 0.85);
-				display: table;
-				height: 100vh;
-				overflow: hidden;
-				margin: 0 auto;
-				padding: 0;
-				padding-top:100px;
-				color: #ffffff;
-				color: #C1CDCD;
-			}
-			.brand-innerwrapper{
-				margin: 0 auto;
-				display: table-cell;
-				vertical-align: middle;
-				/* background:indigo; */
-
-				float: right;
-			}
-
-
-
-
-
-			.brand h1{
-				margin-bottom: 0;
-				padding-bottom: 0;
-			}
-			#home .brand{
-				text-align: center;
-				margin-bottom: 40px;
-			}
-			#home .brand h1{
-				font-size: 5em;
-				font-family: 'Carrois Gothic SC', sans-serif;
-
-				text-transform: uppercase;
-			}
-			#home .brand p{
-				font-family: 'Orbitron', sans-serif;
-				font-size: 1em;
-				font-weight: lighter;
-			}
-			#home .introduction{
-				font-family: 'Hind Guntur', sans-serif;
-				font-size: 1.2em;
-			}
-			</style>
+			
 			<div id="home">
 				<div class="brand-wrapper">
 				  <div class="brand-innerwrapper">
