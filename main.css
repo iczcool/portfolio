@@ -210,32 +210,134 @@ p{
 #projects{
   color: grey;
 }
+#projects .heading{
+  padding-bottom: 50px;
+}
 .projects-wrapper{
   padding: 0 20%;
   color: grey;
 }
-.projects-wrapper ul li{
-  display: inline-block;
-  margin: 8px;
+.row{
+  margin: 0;
+  padding: 0;
+}
+.col{
+  margin: 30px auto;
+  padding: 0;
+}
+.portfolio-wrapper{
+  width:100%;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+}
+.background{
+	position: absolute;
+  width: 100%;
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  border: 6px solid rgba(255,255,255,0.8);
+}
+.background-1{
+  background: url(imgs/vfg.png);
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.background-2{
+  background: url(imgs/owp.png);
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.background-3{
+  background: url(imgs/ohc.png);
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.background-4{
+  background: url(imgs/pp.png);
+  background-position: 50% 0%;
+  background-size: cover;
+}
+.description{
+	position: absolute;
+  background: #fff;
+  width: 100%;
+  min-height: 400px;
+  display:block;
+  margin: 0;
+  padding: 40px;
+
+  border: 6px solid rgba(153,153,153,0.8);
+
+  transition: 0.3s;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.description:hover{
+  opacity: 1;
 }
 .projects-wrapper ul li a{
   color: grey;
 }
+.projects-wrapper ul{
+	margin: 0;
+	padding: 0;
+}
+.projects-wrapper ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 auto;
+}
+.projects-wrapper ul li a{
+	text-decoration: none;
+	margin: 0;
+	padding: 10px;
+	border-bottom: 1px solid black;
+}
 .projects-wrapper ul li a:hover{
   color: lightgrey;
 }
-.project{
+.icons{
+  text-align: center;
+  /* font-size: 1.6em; */
   margin: 0;
-  padding: 60px 0;
+  padding: 0;
 }
-.project i{
-  font-size: 1.6em;
+.icons i{
+	margin: 0 10px;
+  /* font-size: 1.6em; */
 }
+.projects-wrapper h1{
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.links-wrapper{
+  width: 100%;
+  margin: 20px 0;
+}
+.links-wrapper ul{
+	width: 100%;
+	margin: auto;
+	height: auto;
+  text-align: center;
+}
+
 .project-1{
 }
 .project-2{
 }
 .project-3{
+}
+.other{
+  margin: 100px 0 0 0;
+  padding: 0;
 }
 
 
