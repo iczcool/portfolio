@@ -260,6 +260,11 @@ p{
   background-position: 50% 0%;
   background-size: cover;
 }
+.background-5{
+  background: url(imgs/fp.png);
+  background-position: 50% 0%;
+  background-size: cover;
+}
 .description{
 	position: absolute;
   background: #fff;
