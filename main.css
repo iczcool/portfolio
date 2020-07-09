@@ -1,7 +1,8 @@
 h1{
   text-align: center;
   margin: 0;
-  padding-top: 140px;
+  padding-top: 120px;
+  /*padding-top: 20px;*/
   padding-bottom: 100px;
 }
 p{
@@ -29,7 +30,7 @@ p{
   ....................... */
   nav{
     position:fixed;
-    background:rgba(0,0,0,0.8);
+    background:rgba(255,255,255,0.8);
     background: #060607;
     width:100%;
     z-index: 200;
@@ -61,14 +62,14 @@ p{
     font-size: 0.86rem;
     font-size: 0.8rem;
     letter-spacing: 0.6px;
-    font-style: italic;
+    font-style: ;
   }
   nav li a:hover{color: snow;}
-.home a{color: red;}
+/*.home a{color: red;}
 .about a{color: purple;}
 .skills a{color: orange;}
 .resume a{color: lightgreen;}
-.contact a{color: lightblue;}
+.contact a{color: lightblue;}*/
 
 
 
@@ -106,15 +107,15 @@ p{
   margin: auto 0;
 }
 .brand-wrapper{
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(255, 255, 255, 0.85);
   display: table;
   height: 100vh;
   overflow: hidden;
   margin: 0 auto;
   padding: 0;
-  /* padding-top:100px; */
   color: #ffffff;
   color: #C1CDCD;
+  color: #000000;
 }
 .brand-innerwrapper{
   margin: 0 auto;
@@ -128,28 +129,50 @@ p{
   margin-bottom: 0;
   padding-bottom: 0;
 }
+#home .image{
+  background-image: url(icz.jpg);
+  background-size: cover;
+  background-position: 50% 0%;
+  margin: auto;
+  /*margin-top: 80px;*/
+
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  border: 6px solid #faa500;
+  border: 0px solid #000000;
+  background-color: lawngreen;
+}
 #home .brand{
   text-align: center;
-  margin-bottom: 40px;
   margin-bottom: 60px;
-  /* background: green; */
 }
-#home .brand .mybrand{
-  font-size: 6em;
-  font-size: 7em;
-  font-family: 'Tajawal', sans-serif;
-  /* font-weight: 100; */
 
-  text-transform: uppercase;
+#home .brand .mybrand{
+  font-size: 5em;
+  /*font-size: 7em;*/
+  font-family: 'Iceland', sans-serif;
+  font-weight: 100; 
+  font-weight: lighter;
+  color: #7a7a7a;
+  color: #faa500;
+  color: #000000;
+  letter-spacing: 2px;
+
+  /*text-transform: uppercase;*/
 }
 #home .brand p{
-  font-family: 'Orbitron', sans-serif;
-  font-size: 1em;
+  font-family: 'Hanuman', sans-serif;
+  font-size: 0.65em;
   font-weight: lighter;
+  letter-spacing: 4px;
+  color: #7a7a7a;
+  /*color: #000000;*/
 }
 #home .introduction{
   font-family: 'Hind Guntur', sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  color: #7a7a7a;
 }
 
 
@@ -170,11 +193,18 @@ p{
 /* .......................
         Skills
 ....................... */
+#skills-wrapper{
+  background-image: url(skills1.jpg); 
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
 #skills{
   position: relative;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
-  color: rgb(217,225,229);
+  padding: 0 20% 6% 20%;
+  background-color: rgb(217,225,229,0.8);
   color: grey;
 }
 #skills .skills-intro{
@@ -368,8 +398,14 @@ p{
 /* .......................
         Contact
 ....................... */
+#contact-wrapper{
+  background-image: url(locate1.jpg);
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+}
 #contact{
-  background: lightgrey;
+  background: rgba(188,188,188,0.9);
   color: #0e1215;
   margin: 0;
   padding: 0;
