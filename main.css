@@ -130,7 +130,7 @@ p{
   padding-bottom: 0;
 }
 #home .image{
-  background-image: url(icz.jpg);
+  background-image: url(mypic.jpg);
   background-size: cover;
   background-position: 50% 0%;
   margin: auto;
@@ -171,6 +171,7 @@ p{
 }
 #home .introduction{
   font-family: 'Hind Guntur', sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 1.1em;
   color: #7a7a7a;
 }
@@ -188,6 +189,11 @@ p{
   margin: 0 20%;
   text-align: justify;
   font-size: 1.2em;
+
+  font-family: 'Prompt', sans-serif;
+  font-size: 1.1em;
+  color: #7a7a7a;
+  letter-spacing: 1px;
 }
 
 /* .......................
