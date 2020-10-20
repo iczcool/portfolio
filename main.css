@@ -2,7 +2,6 @@ h1{
   text-align: center;
   margin: 0;
   padding-top: 120px;
-  /*padding-top: 20px;*/
   padding-bottom: 100px;
 }
 p{
@@ -16,6 +15,15 @@ p{
     background: #0e1215;
     margin: 0;
     padding: 0;
+
+    color:#2e2e2e;
+    color: #0e1215; 
+    color: #555555;
+    color:#353839;
+    /*font-family: 'Jura'; */
+    font-weight:400; 
+    font-size:1.05em; 
+    letter-spacing: 0.5px;
   }
   ul{
     margin: 0;
@@ -81,12 +89,10 @@ p{
 
 
   .content-wrapper{
-    /* background: rgba(32,233,0,0.3); */
     position: relative;
     margin:0;
     padding: 0;
     width: 100%;
-    /* min-height: 100vh; */
   }
 
   #home, #about, #skills, #projects, #resume, #contact{
@@ -113,16 +119,11 @@ p{
   overflow: hidden;
   margin: 0 auto;
   padding: 0;
-  color: #ffffff;
-  color: #C1CDCD;
-  color: #000000;
 }
 .brand-innerwrapper{
   margin: 0 auto;
   display: table-cell;
   vertical-align: middle;
-  /* background:indigo; */
-
   float: right;
 }
 .brand .mybrand{
@@ -140,8 +141,8 @@ p{
   width: 260px;
   height: 260px;
   border: 6px solid #faa500;
-  border: 0px solid #000000;
-  background-color: lawngreen;
+  border: 1px solid #353839;
+  background-color: #353839;
 }
 #home .brand{
   text-align: center;
@@ -150,13 +151,10 @@ p{
 
 #home .brand .mybrand{
   font-size: 5em;
-  /*font-size: 7em;*/
+  font-size: 10em;
   font-family: 'Iceland', sans-serif;
   font-weight: 100; 
   font-weight: lighter;
-  color: #7a7a7a;
-  color: #faa500;
-  color: #000000;
   letter-spacing: 2px;
 
   /*text-transform: uppercase;*/
@@ -167,13 +165,12 @@ p{
   font-weight: lighter;
   letter-spacing: 4px;
   color: #7a7a7a;
-  /*color: #000000;*/
 }
 #home .introduction{
-  font-family: 'Hind Guntur', sans-serif;
-  font-family: 'Prompt', sans-serif;
-  font-size: 1.1em;
-  color: #7a7a7a;
+  /*font-family: 'Hind Guntur', sans-serif;*/
+  /*font-family: 'Prompt', sans-serif;*/
+  /*font-size: 1.1em;*/
+  color: #555555;
   padding: 0 20%;
 }
 
@@ -184,17 +181,17 @@ p{
 
 #about{
   background: rgb(217,225,229);
-  color: #0e1215;
+  /*color: #0e1215;*/
 }
 #about p{
   margin: 0 20%;
   text-align: justify;
-  font-size: 1.2em;
+  /*font-size: 1.2em;*/
 
-  font-family: 'Prompt', sans-serif;
-  font-size: 1.1em;
-  color: #7a7a7a;
-  letter-spacing: 1px;
+  /*font-family: 'Prompt', sans-serif;*/
+  /*font-size: 1.1em;*/
+  /*color: #7a7a7a;*/
+  /*letter-spacing: 1px;*/
 }
 
 /* .......................
@@ -212,7 +209,7 @@ p{
   margin: 0 auto;
   padding: 0 20% 6% 20%;
   background-color: rgb(217,225,229,0.8);
-  color: grey;
+  /*color: grey;*/
 }
 #skills .skills-intro{
   text-align: justify;
@@ -224,7 +221,7 @@ p{
   padding: 5% 2%;
 }
 #skills .skills-item p{
-  font-size: 1em;
+  /*font-size: 1em;*/
 }
 #skills .skills-item:first-child{
   border-left: 1px solid grey;
@@ -245,14 +242,14 @@ p{
         Projects
 ....................... */
 #projects{
-  color: grey;
+  /*color: grey;*/
 }
 #projects .heading{
   padding-bottom: 50px;
 }
 .projects-wrapper{
   padding: 0 20%;
-  color: grey;
+  /*color: grey;*/
 }
 .row{
   margin: 0;
@@ -397,7 +394,7 @@ p{
 ....................... */
 #resume{
   background: rgb(217,225,229);
-  color: #0e1215;
+  /*color: #0e1215;*/
   text-align: center;
 }
 
@@ -413,7 +410,7 @@ p{
 }
 #contact{
   background: rgba(188,188,188,0.9);
-  color: #0e1215;
+  /*color: #0e1215;*/
   margin: 0;
   padding: 0;
 }
