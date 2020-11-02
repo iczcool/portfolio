@@ -141,7 +141,9 @@ p{
   width: 260px;
   height: 260px;
   border: 6px solid #faa500;
-  border: 1px solid #353839;
+  border: 4px solid #353839;
+  border: 4px solid #fff;
+
   background-color: #353839;
 }
 #home .brand{
